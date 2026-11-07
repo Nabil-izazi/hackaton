@@ -118,6 +118,8 @@ body {
 
 /* ==================== Katalog menu ==================== */
 .kartu {
+    display: flex;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
     border: 1px solid var(--garis);
@@ -196,6 +198,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 5px;
+    margin-top: auto;
 }
 
 .add-btn {
