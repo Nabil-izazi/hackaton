@@ -1,4 +1,4 @@
-/* Warna dan jenis huruf utama */
+/* ==================== Variabel warna dan tipografi ==================== */
 :root {
     --utama: #a64b20;
     --teks: #262522;
@@ -10,7 +10,7 @@
     --font-heading: "Playfair Display", Georgia, serif;
 }
 
-/* Pengaturan dasar halaman, navigasi, dan area konten */
+/* ==================== Pengaturan dasar halaman ==================== */
 * {
     box-sizing: border-box;
 }
@@ -32,6 +32,7 @@ body {
     width: 100%;
 }
 
+/* Header, navigasi, logo, dan footer */
 .atas {
     background: rgba(250, 249, 246, .97) !important;
     border-color: var(--garis) !important;
@@ -67,7 +68,7 @@ body {
     font-size: 13px;
 }
 
-/* Judul, teks penanda, dan status warung */
+/* ==================== Hero, judul, dan status warung ==================== */
 .eyebrow {
     margin: 0 0 12px;
     color: var(--utama) !important;
@@ -115,7 +116,7 @@ body {
     box-shadow: 0 0 0 4px #dff3e7;
 }
 
-/* Kartu menu dan tombol tambah */
+/* ==================== Katalog menu ==================== */
 .kartu {
     position: relative;
     overflow: hidden;
@@ -214,7 +215,7 @@ body {
     color: #fff !important;
 }
 
-/* Form pemesanan dan pilihan menu */
+/* ==================== Form pemesanan ==================== */
 .order-card {
     border-radius: 7px;
 }
@@ -301,7 +302,7 @@ body {
     font-size: 11px;
 }
 
-/* Keranjang dan pengaturan jumlah pesanan */
+/* ==================== Keranjang dan jumlah pesanan ==================== */
 .cart-head,
 .total {
     display: flex;
@@ -376,7 +377,7 @@ body {
     font-size: 16px;
 }
 
-/* Tombol aksi dan tautan pemesanan */
+/* ==================== Tombol aksi dan tautan WhatsApp ==================== */
 .tombol {
     display: inline-flex;
     align-items: center;
@@ -408,7 +409,7 @@ body {
     text-align: center;
 }
 
-/* Notifikasi sementara di bagian bawah layar */
+/* ==================== Notifikasi ==================== */
 .toast {
     position: fixed;
     z-index: 50;
@@ -431,7 +432,7 @@ body {
     opacity: 1;
 }
 
-/* Penyesuaian tampilan pada layar ponsel */
+/* ==================== Tampilan responsif untuk ponsel ==================== */
 @media (max-width: 640px) {
     html {
         scroll-padding-top: 125px;
