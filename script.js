@@ -60,7 +60,7 @@ const produk = [
     harga: 5000,
     kategori: "Minuman",
     keterangan: "Segar dan pas untuk menemani hidangan hangat.",
-    gambar:"https://images.unsplash.com/photo-1513558161293-cdaf765ed2e6?auto=format&fit=crop&w=800&q=80",
+    gambar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC909gLFFmX-51p_BopZrjbDwEjZyYv-yvBRVzHQ-aUw&s=10",
     badge: "Segar"
   },
   {
